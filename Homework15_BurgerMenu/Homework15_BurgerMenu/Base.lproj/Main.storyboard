@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework15_BurgerMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="GOu-cN-HeT">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLO-Z4-Kkv">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="uhP-Nq-Wxo">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hee-Zj-fFe">
+                                <rect key="frame" x="0.0" y="0.0" width="265" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu" translatesAutoresizingMaskIntoConstraints="NO" id="HRd-7m-6EA">
+                                <rect key="frame" x="25" y="50" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2mO-Kh-bgq"/>
+                                    <constraint firstAttribute="width" constant="40" id="nq0-cS-RsZ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2h-nA-pyf">
+                                <rect key="frame" x="25" y="50" width="40" height="40"/>
+                                <connections>
+                                    <action selector="burgerMenuButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GRi-EE-zy9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="q2h-nA-pyf" firstAttribute="width" secondItem="HRd-7m-6EA" secondAttribute="width" id="0Yb-GM-c5h"/>
+                            <constraint firstItem="YLO-Z4-Kkv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6mw-UL-ey9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hee-Zj-fFe" secondAttribute="trailing" constant="110" id="9Zo-eV-FS4"/>
+                            <constraint firstItem="Hee-Zj-fFe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9cZ-yo-f3U"/>
+                            <constraint firstItem="q2h-nA-pyf" firstAttribute="height" secondItem="HRd-7m-6EA" secondAttribute="height" id="B1Q-el-h4m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YLO-Z4-Kkv" secondAttribute="trailing" id="Bd1-Tb-kvG"/>
+                            <constraint firstItem="HRd-7m-6EA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="HFq-3X-V28"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GOu-cN-HeT" secondAttribute="bottom" id="Kya-dO-nHq"/>
+                            <constraint firstItem="HRd-7m-6EA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="RSh-YL-atV"/>
+                            <constraint firstItem="q2h-nA-pyf" firstAttribute="leading" secondItem="HRd-7m-6EA" secondAttribute="leading" id="USo-sz-efU"/>
+                            <constraint firstItem="YLO-Z4-Kkv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XCz-Pb-TNS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Hee-Zj-fFe" secondAttribute="bottom" id="cfw-HB-lLk"/>
+                            <constraint firstItem="Hee-Zj-fFe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hJ5-G6-6CD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GOu-cN-HeT" secondAttribute="trailing" id="j0S-Tb-4az"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YLO-Z4-Kkv" secondAttribute="bottom" id="qmd-bY-36A"/>
+                            <constraint firstItem="GOu-cN-HeT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="se1-We-Sj8"/>
+                            <constraint firstItem="GOu-cN-HeT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yLp-gz-k8x"/>
+                            <constraint firstItem="q2h-nA-pyf" firstAttribute="bottom" secondItem="HRd-7m-6EA" secondAttribute="bottom" id="zxE-Q7-UX3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="blurView" destination="YLO-Z4-Kkv" id="ApG-yT-Kag"/>
+                        <outlet property="burgerMenuButton" destination="q2h-nA-pyf" id="sNO-mG-Yhv"/>
+                        <outlet property="burgerMenuView" destination="Hee-Zj-fFe" id="ChP-jG-kyx"/>
+                        <outlet property="burgerMenuWidthConstraint" destination="9Zo-eV-FS4" id="kb5-cu-yVw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72.799999999999997" y="-53.523238380809602"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image" width="4024" height="6048"/>
+        <image name="menu" width="512" height="512"/>
+    </resources>
+</document>

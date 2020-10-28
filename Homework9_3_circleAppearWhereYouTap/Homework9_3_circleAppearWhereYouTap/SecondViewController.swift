@@ -30,6 +30,7 @@ class SecondViewController: UIViewController {
         myView = UIView()
         myView.frame.size = CGSize (width: 50, height: 50)
         myView.center = location
+        myView.layer.cornerRadius = myView.frame.size.width/2
 
         
         var filteredArrayView = arrayView.filter({(($0.frame.origin.x...($0.frame.origin.x + myView.frame.width)).contains(location.x) && ($0.frame.origin.y...($0.frame.origin.y + myView.frame.height)).contains(location.y) )})
