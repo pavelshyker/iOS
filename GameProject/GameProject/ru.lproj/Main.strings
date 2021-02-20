@@ -1,0 +1,54 @@
+
+/* Class = "UIButton"; normalTitle = "Clear results"; ObjectID = "0If-ud-Hof"; */
+"0If-ud-Hof.normalTitle" = "Удалить результаты";
+
+/* Class = "UILabel"; text = "Enter you name"; ObjectID = "6ms-gg-74o"; */
+"6ms-gg-74o.text" = "Введите свое имя";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "FrJ-cm-vl0"; */
+"FrJ-cm-vl0.normalTitle" = "Настройки";
+
+/* Class = "UIButton"; normalTitle = "Let's begin"; ObjectID = "GRj-Gh-i8q"; */
+"GRj-Gh-i8q.normalTitle" = "Вперед!";
+
+/* Class = "UILabel"; text = "Select colour of your car"; ObjectID = "IsC-2A-6Kt"; */
+"IsC-2A-6Kt.text" = "Выберите цвет машины";
+
+/* Class = "UIButton"; normalTitle = "Records"; ObjectID = "Kwc-Rf-gib"; */
+"Kwc-Rf-gib.normalTitle" = "Рекорды";
+
+/* Class = "UISegmentedControl"; SVy-dj-yK9.segmentTitles[0] = "Red"; ObjectID = "SVy-dj-yK9"; */
+"SVy-dj-yK9.segmentTitles[0]" = "Красная";
+
+/* Class = "UISegmentedControl"; SVy-dj-yK9.segmentTitles[1] = "Yellow"; ObjectID = "SVy-dj-yK9"; */
+"SVy-dj-yK9.segmentTitles[1]" = "Желтая";
+
+/* Class = "UIButton"; normalTitle = " New Game "; ObjectID = "XYW-es-2fA"; */
+"XYW-es-2fA.normalTitle" = "Новая игра";
+
+/* Class = "UISegmentedControl"; aF8-iM-wtW.segmentTitles[0] = "Yes"; ObjectID = "aF8-iM-wtW"; */
+"aF8-iM-wtW.segmentTitles[0]" = "Да";
+
+/* Class = "UISegmentedControl"; aF8-iM-wtW.segmentTitles[1] = "No"; ObjectID = "aF8-iM-wtW"; */
+"aF8-iM-wtW.segmentTitles[1]" = "Нет";
+
+/* Class = "UISegmentedControl"; f8J-6O-303.segmentTitles[0] = "Yes"; ObjectID = "f8J-6O-303"; */
+"f8J-6O-303.segmentTitles[0]" = "Да";
+
+/* Class = "UISegmentedControl"; f8J-6O-303.segmentTitles[1] = "No"; ObjectID = "f8J-6O-303"; */
+"f8J-6O-303.segmentTitles[1]" = "Нет";
+
+/* Class = "UILabel"; text = "Play sound"; ObjectID = "cut-Q1-NLU"; */
+"cut-Q1-NLU.text" = "Включить звуки";
+
+/* Class = "UILabel"; text = "Accelerometer anable"; ObjectID = "b7T-Z3-bdP"; */
+"b7T-Z3-bdP.text" = "Включить аксселерометер";
+
+/* Class = "UILabel"; text = "Your score is: "; ObjectID = "dwe-bD-yHu"; */
+"dwe-bD-yHu.text" = "Ваш результат:";
+
+/* Class = "UILabel"; text = "Records Table"; ObjectID = "euL-7t-K04"; */
+"euL-7t-K04.text" = "Таблица рекордов";
+
+/* Class = "UIButton"; normalTitle = "Menu"; ObjectID = "gOZ-KS-Ij8"; */
+"gOZ-KS-Ij8.normalTitle" = "Меню";

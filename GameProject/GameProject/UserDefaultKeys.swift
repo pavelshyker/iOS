@@ -11,4 +11,10 @@ import Foundation
 enum UserDefaultKeys: String {
     case carColor = "selectedCarColor"
     case userName = "userName"
+    case score = "userScore"
+    case record = "recordResult"
+    case date = "recordDate"
+    case sound = "soundOption"
+    case soundRestart = "isSoundShouldBeRestarted"
+    case accelerometer = "isAccelerometerNeeded"
 }
